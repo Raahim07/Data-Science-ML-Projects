@@ -1,16 +1,16 @@
- # 📘Pakistan General Election Voters Turnout Prediction
+ # 🗳️Pakistan General Election Voters Turnout Prediction
 
 This repository contains a comprehensive machine learning project aimed at predicting voter turnout in Pakistan’s General Elections using historical data from 1970 to 2018. The project involves several stages of data preprocessing, feature engineering, and model development. The goal is to create an accurate predictive model using various machine learning techniques and methodologies.
 
-## Dataset
+## 📊Dataset
 
 The dataset used for this project can be accessed from [Kaggle](https://www.kaggle.com/datasets/tahminashoaib86/pakistan-general-elections-dataset-1970-2018?resource=download). It contains detailed electoral results from the past 10 general elections in Pakistan, providing constituency-wise and year-wise data.
 
-### Dataset Description:
+### ✅Dataset Description:
 - **Features**: Registered voters, total votes polled, rejected votes, valid votes, candidate-wise vote counts, party affiliations, and geographical details such as province, division, district, and constituency.
 - **Target Variable**: Voter turnout percentage in each election.
 
-## Project Workflow
+## 📘Project Workflow
 
 ### 1. **Data Preprocessing**
    Preprocessing is essential to clean and prepare the dataset for model training. This includes handling missing values, data transformation, and feature selection.
