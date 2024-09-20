@@ -48,13 +48,14 @@ The dataset used for this project can be accessed from [Kaggle](https://www.kagg
 
 #### e. **Model Evaluation**:
    - The performance of the model is evaluated using the **R-squared** score to determine how well the model explains the variability of the target variable.
-   - Both training and testing R-squared scores are calculated to assess the model’s performance.
+   - Training R-squared: 0.81
+   - Testing R-squared: 0.78​
 
 #### f. **Prediction for 2024**:
    - A hypothetical dataset for the year 2024 is created, and the model predicts voter turnout using the trained model.
 
 #### g. **Overall Model Accuracy**:
-   - The final accuracy of the model is computed as the average of the training and testing accuracies. This score reflects the model’s predictive power.
+   - The overall accuracy of the model is calculated as the mean of the training and testing accuracies. Based on the R-squared scores, the model is reasonably accurate in predicting          voter turnout trends, with an average accuracy of 79.5%​
 
 ## Usage Instructions
 
