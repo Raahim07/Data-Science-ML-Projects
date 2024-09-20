@@ -57,7 +57,7 @@ The dataset used for this project can be accessed from [Kaggle](https://www.kagg
 #### g. **Overall Model Accuracy**:
    - The overall accuracy of the model is calculated as the mean of the training and testing accuracies. Based on the R-squared scores, the model is reasonably accurate in predicting          voter turnout trends, with an average accuracy of 79.5%​
 
-## Usage Instructions
+## 🛠️Usage Instructions
 
 ### 1. Clone the Repository:
    ```bash
