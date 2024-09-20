@@ -35,26 +35,26 @@ The dataset used for this project can be accessed from [Kaggle](https://www.kagg
 
 #### a. **Feature and Target Variable Separation**:
    - The features (`X`) are separated from the target variable (`y`), where `y` represents the voter turnout.
-   - Irrelevant features such as `Year` and `NA` are dropped from the feature set【7†source】【12†source】.
+   - Irrelevant features such as `Year` and `NA` are dropped from the feature set.
 
 #### b. **Data Splitting for Training and Testing**:
-   - The dataset is split into training and testing sets using `train_test_split()`. 70% of the data is used for training, and 30% for testing【12†source】.
+   - The dataset is split into training and testing sets using `train_test_split()`. 70% of the data is used for training, and 30% for testing.
 
 #### c. **Handling Missing Values in Training Set**:
-   - Missing values in the training set are handled using the `SimpleImputer` with the mean strategy【12†source】.
+   - Missing values in the training set are handled using the `SimpleImputer` with the mean strategy.
 
 #### d. **Model Training**:
-   - A **Linear Regression** model is instantiated and trained using the preprocessed data. The model is trained to predict voter turnout using features such as the number of registered voters, total votes polled, and demographic details【12†source】.
+   - A **Linear Regression** model is instantiated and trained using the preprocessed data. The model is trained to predict voter turnout using features such as the number of registered voters, total votes polled, and demographic details.
 
 #### e. **Model Evaluation**:
    - The performance of the model is evaluated using the **R-squared** score to determine how well the model explains the variability of the target variable.
-   - Both training and testing R-squared scores are calculated to assess the model’s performance【12†source】.
+   - Both training and testing R-squared scores are calculated to assess the model’s performance.
 
 #### f. **Prediction for 2024**:
-   - A hypothetical dataset for the year 2024 is created, and the model predicts voter turnout using the trained model【12†source】.
+   - A hypothetical dataset for the year 2024 is created, and the model predicts voter turnout using the trained model.
 
 #### g. **Overall Model Accuracy**:
-   - The final accuracy of the model is computed as the average of the training and testing accuracies. This score reflects the model’s predictive power【12†source】.
+   - The final accuracy of the model is computed as the average of the training and testing accuracies. This score reflects the model’s predictive power.
 
 ## Usage Instructions
 
