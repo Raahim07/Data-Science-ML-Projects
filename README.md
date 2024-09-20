@@ -1,4 +1,4 @@
-📘# Pakistan General Election Voters Turnout Prediction
+#📘 Pakistan General Election Voters Turnout Prediction
 
 This repository contains a comprehensive machine learning project aimed at predicting voter turnout in Pakistan’s General Elections using historical data from 1970 to 2018. The project involves several stages of data preprocessing, feature engineering, and model development. The goal is to create an accurate predictive model using various machine learning techniques and methodologies.
 
